@@ -1,0 +1,56 @@
+/* CSS for Big Poster */
+.mySlides{
+    display:none
+}
+.w3-left, .w3-right, .w3-badge{
+    cursor:pointer
+}
+.w3-badge{
+    height:13px;width:13px;padding:0
+}
+
+/* CSS for All Movie */
+.movie{
+    padding:15px;
+    flex: 0 1 calc(20% - 8px);
+    position: relative;
+}
+.movie img{
+    display: block;
+    opacity: 1;
+    width: 250px;
+    height: 350px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+.movie .middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.movie_container{
+    display:flex;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    position: relative;
+}
+.movie:hover img {
+    opacity: 0.3;
+}
+
+.movie:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 13px;
+    padding: 13px 26px;
+}
+

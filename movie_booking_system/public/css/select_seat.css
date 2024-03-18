@@ -1,0 +1,160 @@
+.page-container {
+    padding-bottom: 50px;
+}
+
+.proceed{
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #e88122;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.proceed .text{
+    margin-top: 10px;
+    font-size: 20px;    
+}
+
+.payment{
+    position: fixed;
+    height: 50px;
+    width: 400px;
+    bottom: 0;
+    margin: auto;
+    background-color: #e88122;
+    text-align: center;
+    cursor: pointer;
+}
+
+.payment .text{
+    margin-top: 10px;
+    font-size: 20px;    
+}
+
+.seat-container{
+    border:1px solid gray; 
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.seat{
+    height: 20px;
+    width: 30px;
+    border: 1px solid gray;
+    cursor:pointer;
+    background-color:white;
+    text-align: center;
+    border-radius: 40%;
+}
+
+.selected{
+    background-color: red;
+}
+
+#screen {
+    background-color:gray;          
+    height: 40px;
+    width: 1000px;
+    text-align: center;
+}
+
+.gap{
+    height: 50px;
+    
+}
+
+.row{
+    padding-top: 10px;
+}
+
+.walk{
+    width: 100px;
+}
+
+#overlay-receipt-container {
+    position: fixed; 
+    display: none;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); 
+    z-index: 2; 
+}
+
+#receipt-container {
+    position: absolute;
+    left: 35%;
+    width: 400px;
+    height: 100%;
+    background-color: aliceblue;
+    border-color: black;
+}
+
+#text-receipt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: black;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.close-btn{
+    cursor: pointer;
+    width: max-content;
+}
+
+#overlay-loading {
+    position: fixed; 
+    display: none;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); 
+    z-index: 2; 
+}
+
+#loading-container {
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+.receipt-body {
+    margin: 20px;
+}
+
+.receipt-body h1 {
+    text-align: center;
+}
+
+.receipt-table{
+    width:80%;
+    margin:auto;
+}
+
+.receipt-table-body {
+    color: #666565;
+}
+
+.receipt-table-foot {
+    border-top: 1px solid #b4b4b4;
+    font-weight: 600;
+    font-size: large;
+}

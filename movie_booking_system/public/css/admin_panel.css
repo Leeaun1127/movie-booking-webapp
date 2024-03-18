@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid rgb(143, 124, 124);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.movie-table{
+    width:100%;
+    margin:auto;
+}
+
+img{
+    margin-left: 22%;
+    width: 150px;
+    height: 250px;
+}
+
+.create-btn {
+    background-color: #4CAF50;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav{
+    margin-top: 20px;
+}
+
+.fa{
+    cursor:pointer
+}
